@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "test1",
+      "setup": "javac 2_2.java",
+      "run": "java test",
+      "input": "13\r\n",
+      "output": "The multiplication of all digits in 13 is 3",
+      "comparison": "included",
+      "timeout": 3,
+      "points": null
+    },
+    {
+      "name": "test2",
+      "setup": "javac 2_2.java",
+      "run": "java test",
+      "input": "555\r\n",
+      "output": "The multiplication of all digits in 555 is 125",
+      "comparison": "included",
+      "timeout": 3,
+      "points": null
+    },
+    {
+      "name": "test3",
+      "setup": "javac 2_2.java",
+      "run": "java test",
+      "input": "123\r\n",
+      "output": "The multiplication of all digits in 123 is 6",
+      "comparison": "included",
+      "timeout": 3,
+      "points": null
+    }
+  ]
+}
